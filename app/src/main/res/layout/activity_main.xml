@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="testsdcard.cai.maiyu.rx_java_rx_android_test.MainActivity">
+
+    <Button
+        android:onClick="btnOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="RxAndroid测试1" />
+    <Button
+        android:onClick="btnOnClick2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="RxAndroid测试2" />
+    <Button
+        android:onClick="btnOnClick3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="from方法测试" />
+    <Button
+        android:onClick="interval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="interval方法测试" />
+    <Button
+        android:onClick="just"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="just" />
+    <Button
+        android:onClick="range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="range"/>
+
+    <Button
+        android:onClick="filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="filter"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
